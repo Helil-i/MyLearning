@@ -1,0 +1,12 @@
+Commands                               Descriprion
+touch                                  create files
+mkdir                                  create Folder
+rm -rf                                 delete Folder
+tar -xvzf                              install tar.gz file into System
+mv a b                                 rename a into b
+chmod +x *.desktop                     "Untrusted Application Launcher" Problem
+dpkg -i *.deb                          install debian based software
+dpkg -r *                              uninstall debian software
+sudo apt install git                   install git version control
+sudo apt-get install wine-development  install wine(also can install the stable version by "sudo apt-get install wine-stable")
+

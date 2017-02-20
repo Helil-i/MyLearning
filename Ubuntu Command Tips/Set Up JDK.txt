@@ -1,0 +1,8 @@
+1.Tar the jdk.tar file to "somedir" 
+2.open shell terminal ,cd into /etc ,type in sudo gedit profile.
+3.put these codes at the buttom
+
+export JAVA_HOME="somedir"
+export JRE_HOME=.${JAVA_HOME}/jre
+export CLASSPATH=.${JAVA_HOME}/lib:${JRE_HOME}/lib
+export PATH=.${JAVA_HOME}/bin:$PATH

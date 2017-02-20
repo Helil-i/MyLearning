@@ -1,0 +1,17 @@
+Step 1:Create a "*.desktop" file,You also can rename to that.
+Step 2:Copy those Codes into "*.desktop" file ,and fill the changes.
+
+[Desktop Entry]
+Name=ShortCut
+Name[zh_CN]=ShortCut
+Comment=ShortCut comment
+Exec=Where The Software Stored
+Icon=Where The Icon Stored
+Terminal=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true
+
+Step 3:Save it.
+Step 4:Change Properties
+sudo chmod +x *.desktop file directory
