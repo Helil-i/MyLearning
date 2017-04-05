@@ -1,5 +1,5 @@
-Step 1:Create a "*.desktop" file,You also can rename to that.
-Step 2:Copy those Codes into "*.desktop" file ,and fill the changes.
+1.Create a "*.desktop" file,You also can rename to that.
+2.Copy those Codes into "*.desktop" file ,and fill the changes.
 
 [Desktop Entry]
 Name=ShortCut
@@ -12,6 +12,4 @@ Type=Application
 Categories=Application;Development;
 StartupNotify=true
 
-Step 3:Save it.
-Step 4:Change Properties
-sudo chmod +x *.desktop file directory
+3.Save it and change properties via sudo chmod +x *.desktop file directory
